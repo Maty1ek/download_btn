@@ -22,7 +22,8 @@ body {
     align-items: center;
     background-color: #4a98f7;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-    transition: .3s;
+    font-size: 22px;
+    transition: .3s ease;
 }
 
 .download_btn:hover {
@@ -30,10 +31,19 @@ body {
 }
 
 .download_btn i {
-    font-size: 22px;
     margin-right: 10px;
 }
 
-.text {
-    font-size: 22px;
+.download_btn.timer {
+    color: #333;
+    background: none;
+    box-shadow: none;
+    border: none;
+    pointer-events: none;
+    transition: none;
+}
+
+b {
+    color: #2382f6;
+    padding: 0 8px;
 }
